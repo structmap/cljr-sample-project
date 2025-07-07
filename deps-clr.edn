@@ -1,0 +1,6 @@
+{:paths ["src/main/clojure"]
+ :deps {io.github.structmap/cljr-native {:git/sha "5ce74ae56168b4c631861aacb28b9fdd6eb376b7"}
+        io.github.structmap/cljr-nuget {:git/tag "v0.0.1"  :git/sha "d00c5a7"}
+        io.github.clojure/clr.test.check {:git/tag "v1.1.2"  :git/sha "26f34e6"}
+        io.github.clojure/clr.tools.nrepl {:git/tag "v0.1.2-alpha2" :git/sha "a58009f"}}
+ :aliases {:test {:extra-paths ["src/test/clojure"]}}}

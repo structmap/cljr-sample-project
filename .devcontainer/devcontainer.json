@@ -1,0 +1,9 @@
+{
+  "dockerFile": "Dockerfile.linux",
+  "runArgs": [
+    "--network=host"
+  ],
+  "containerEnv": {
+    "DOTNET_SYSTEM_NET_DISABLEIPV6": "1"
+  }
+}
